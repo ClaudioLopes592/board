@@ -2,12 +2,17 @@
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 2rem;
+    min-height: calc(100vh - 6rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     img {
+        margin-top: 2rem;
+    }
+
+    h3 {
         margin-top: 2rem;
     }
 }
